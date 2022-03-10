@@ -1,0 +1,6 @@
+.home-page {
+  width: 100%;
+  height: 100vh;
+  background-color: tomato;
+  /* TODO: Remember to position page so it begins after the navbar ends. Navbar is currently using postion fixed. */
+}

@@ -9,25 +9,25 @@ function Navbar() {
     <div>
       <div className="navContainer">
         <div className="home nav-link">
-          <a href="#">
+          <a href="#home">
             Home
             <GrHomeRounded />
           </a>
         </div>
         <div className="about nav-link">
-          <a href="#">
+          <a href="#about">
             About
             <BsPersonCircle />
           </a>
         </div>
         <div className="projects nav-link">
-          <a href="#">
+          <a href="#projects">
             Projects
             <BiBriefcaseAlt2 />
           </a>
         </div>
         <div className="contact nav-link">
-          <a href="#">
+          <a href="#contact">
             Contact
             <GrContactInfo />
           </a>

@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  background-color: white;
 }
 
 /* Nav-link styling */
@@ -34,5 +36,5 @@
 }
 
 .nav-link:hover {
-  background-color: red;
+  background-color: rgb(99, 95, 155);
 }
