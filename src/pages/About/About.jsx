@@ -25,7 +25,7 @@ function About({ title, location, text }) {
           })}
           <p>{content["end"]}</p>
         </div>
-        <div className="icon-container">
+        <div className="icon-container-about">
           <a href="https://twitter.com/?lang=en" target="_blank">
             <FiTwitter className="icon-media-about" />
           </a>
