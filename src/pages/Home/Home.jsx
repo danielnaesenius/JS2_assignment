@@ -1,28 +1,28 @@
-import React from 'react';
-import './Home.css';
-import avatar from '../../resources/avatar.svg';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { FiTwitter } from 'react-icons/fi';
+import React from "react";
+import "./Home.css";
+import avatar from "../../resources/avatar.svg";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FiTwitter } from "react-icons/fi";
 
 function Home() {
   return (
-    <div className='home-page' id='home'>
-      <div className='hero-content'>
-        <div className='hero-img'>
-          <div className='layer'></div>
-          <img src={avatar} alt='' />
-          <div className='hero-text'>
-            <div className='icon-container'>
-              <a href='https://twitter.com/?lang=en' target='_blank'>
-                <FiTwitter className='icon-media' />
+    <div className="home-page" id="home">
+      <div className="hero-content">
+        <div className="hero-img">
+          <div className="layer"></div>
+          <img src={avatar} alt="" />
+          <div className="hero-text">
+            <div className="icon-container">
+              <a href="https://twitter.com/?lang=en" target="_blank">
+                <FiTwitter className="icon-media" />
               </a>
 
-              <a href='https://github.com/964Code' target='_blank'>
-                <AiFillGithub className='icon-media' />
+              <a href="https://github.com/danielnaesenius" target="_blank">
+                <AiFillGithub className="icon-media" />
               </a>
 
-              <a href='https://www.linkedin.com/' target='_blank'>
-                <AiFillLinkedin className='icon-media' />
+              <a href="https://www.linkedin.com/" target="_blank">
+                <AiFillLinkedin className="icon-media" />
               </a>
             </div>
 
