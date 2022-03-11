@@ -9,7 +9,6 @@ function Home() {
     <div className="home-page" id="home">
       <div className="hero-content">
         <div className="hero-img">
-          <div className="layer"></div>
           <img src={avatar} alt="" />
           <div className="hero-text">
             <div className="icon-container">
