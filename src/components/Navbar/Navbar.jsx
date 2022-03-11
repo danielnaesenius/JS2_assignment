@@ -1,35 +1,36 @@
-import React from "react";
-import "./Navbar.css";
-import { GrHomeRounded, GrContactInfo } from "react-icons/gr";
-import { BsPersonCircle } from "react-icons/bs";
-import { BiBriefcaseAlt2 } from "react-icons/bi";
+import React from 'react';
+import './Navbar.css';
+import { GrHomeRounded, GrContactInfo } from 'react-icons/gr';
+import { MdPersonOutline } from 'react-icons/md';
+import { BiBriefcaseAlt2, BiHome } from 'react-icons/bi';
+import { SiTinyletter } from 'react-icons/si';
 
 function Navbar() {
   return (
     <div>
-      <div className="navContainer">
-        <div className="home nav-link">
-          <a href="#home">
+      <div className='navContainer'>
+        <div className='home nav-link'>
+          <a href='#home'>
             Home
-            <GrHomeRounded />
+            <BiHome className='nav-icon' />
           </a>
         </div>
-        <div className="about nav-link">
-          <a href="#about">
+        <div className='about nav-link'>
+          <a href='#about'>
             About
-            <BsPersonCircle />
+            <MdPersonOutline className='nav-icon' />
           </a>
         </div>
-        <div className="projects nav-link">
-          <a href="#projects">
+        <div className='projects nav-link'>
+          <a href='#project'>
             Projects
-            <BiBriefcaseAlt2 />
+            <BiBriefcaseAlt2 className='nav-icon' />
           </a>
         </div>
-        <div className="contact nav-link">
-          <a href="#contact">
+        <div className='contact nav-link'>
+          <a href='#contact'>
             Contact
-            <GrContactInfo />
+            <SiTinyletter className='nav-icon' />
           </a>
         </div>
       </div>
